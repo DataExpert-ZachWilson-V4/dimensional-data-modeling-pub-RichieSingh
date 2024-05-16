@@ -1,4 +1,4 @@
-INSERT INTO actors
+INSERT INTO actors 
 --actors from last year
 WITH last_year as (
 SELECT * FROM actors
