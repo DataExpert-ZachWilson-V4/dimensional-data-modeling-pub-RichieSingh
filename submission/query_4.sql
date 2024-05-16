@@ -1,5 +1,5 @@
 
-INSERT INTO actors_history_scd
+INSERT INTO actors_history_scd 
 -- get is active and quality class from previous year using LAG for a given actor
 with lagged as(
 select actor, CASE WHEN is_active THEN 1 ELSE 0 END as is_active,
