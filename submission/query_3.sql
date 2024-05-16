@@ -1,4 +1,3 @@
- 
 CREATE OR REPLACE TABLE actors_history_scd( 
 actor VARCHAR, -- 'actor': Stores the actor's name. Part of the actor_films dataset.
 quality_class VARCHAR, --'quality class': Categorical rating based on average rating in the most recent year.
