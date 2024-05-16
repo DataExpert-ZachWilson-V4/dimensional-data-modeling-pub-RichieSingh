@@ -1,4 +1,4 @@
-INSERT INTO actors_history_scd
+INSERT INTO actors_history_scd 
 with last_year_scd as(
 select * from actors_history_scd
 where current_year =2020
